@@ -2,20 +2,13 @@ package com.ming.tools;
 
 import java.io.IOException;
 import java.nio.file.*;
-<<<<<<< HEAD
 import java.rmi.server.ExportException;
-import java.util.LinkedList;
-import java.util.List;
-=======
->>>>>>> 2172604312d4a761ff6a7593486f3a1dc81b570b
+import java.util.*;
 
 // 文件操作类,用于进行文件操作
 public class FileManager {
 
-<<<<<<< HEAD
     // ls命令
-=======
->>>>>>> 2172604312d4a761ff6a7593486f3a1dc81b570b
     public static String ls(String stringPath){
         String result = "";
         // 获得当前目录对象
@@ -32,7 +25,6 @@ public class FileManager {
         }
         return result;
     }
-<<<<<<< HEAD
 
     // ls -l命令 输出目录树
     public static String ls_L(String stringPath) {
@@ -45,6 +37,4 @@ public class FileManager {
         }
         return result.toString();
     }
-=======
->>>>>>> 2172604312d4a761ff6a7593486f3a1dc81b570b
 }
