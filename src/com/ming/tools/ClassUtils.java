@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
-// 下方的代码不太懂。。无奈摊手
 // 核心思想是找到该包下的所有类，把类全部装载进入内存，对象文件夹中的类，递归读取，然后在判断子类
 // 由于递归读取防止意外，使用断言
 // 核心思想，是先获得包名，然后再获得该线程下的类加载器，在获得该线程下的类加载器下的
