@@ -1,5 +1,7 @@
 package com.ming;
 
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+
 public abstract class CommandName {
     // 下一个节点
     private CommandName nextOperator;

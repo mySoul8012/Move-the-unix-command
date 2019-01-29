@@ -12,6 +12,7 @@ public class LS extends AbstractLS {
     // 处理最简单的ls
     @Override
     protected String echo(CommandVO vo) {
+        System.out.println('2');
         return FileManager.ls(com.ming.tools.ArrayListToString.arrayToString(vo.getDataList()));
     }
 }

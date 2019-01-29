@@ -1,8 +1,6 @@
 package com.ming;
 
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -21,7 +19,7 @@ class LSCommandTest {
 
     @Test
     void execute() {
-        CommandVO commandVO = new CommandVO("ls /home/ming/xiao");
+        CommandVO commandVO = new CommandVO("ls -l /home/ming");
         LSCommand lsCommand = new LSCommand();
         System.out.println(lsCommand.execute(commandVO));
     }

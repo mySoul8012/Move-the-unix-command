@@ -9,6 +9,6 @@ class InvokerTest {
     @Test
     void exec() {
         Invoker invoker = new Invoker();
-        invoker.exec("ls");
+        invoker.exec("ls /home/ming");
     }
 }

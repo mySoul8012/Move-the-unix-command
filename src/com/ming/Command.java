@@ -28,6 +28,7 @@ public abstract class Command {
             }
             commandNameList.add(commandName);
         }
+
         return commandNameList;
     }
 }

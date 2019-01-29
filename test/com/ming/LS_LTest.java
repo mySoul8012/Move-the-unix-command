@@ -9,8 +9,8 @@ class LS_LTest {
     @Test
     void echo() {
         AbstractLS ls = new LS_L();
-        String lsString = "ls -a /home/ming";
+        String lsString = "ls -l /home/ming";
         CommandVO commandVO = new CommandVO(lsString);
-        System.out.println(ls.echo(commandVO));
+        System.out.println(ls.handMessage(commandVO));
     }
 }

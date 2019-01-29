@@ -6,7 +6,7 @@ import java.util.List;
 // 命令配置,使用枚举
 public enum CommandEnum {
     // 一个项对应一个value
-    ls("com.ming.AbstractLS");
+    ls("com.ming.LSCommand");
     private String value = "";
     private CommandEnum(String value) {
         this.value = value;
